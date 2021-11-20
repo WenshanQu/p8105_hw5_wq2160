@@ -29,7 +29,7 @@ scale_fill_discrete = scale_fill_viridis_d
 
 Raw data
 
-```{r}
+```{r message = FALSE}
 homicide_df = 
   read_csv("./data/homicides/homicide-data.csv", na = c("", "Unknown"))
 ```
